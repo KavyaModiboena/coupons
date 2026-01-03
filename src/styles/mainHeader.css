@@ -1,0 +1,30 @@
+.main-header {
+  position: fixed;        /* <-- keeps it fixed */
+  top: 0;                 /* stick to top */
+  left: 0;                /* full width */
+  right: 0;  
+  height: 56px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  border-bottom: 1px solid #eaeaea;
+  /* position: sticky; */
+  z-index: 1000; 
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: burlywood;
+}
+
+.menu-btn {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color:burlywood;
+}

@@ -1,0 +1,70 @@
+.gift-card {
+  display: flex;
+  background: #fff8f3;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  align-items: stretch;
+}
+
+/* make left label a vertical strip to match coupon cards */
+.gift-left-label {
+  background: #c26a3d; /* adjust per card if needed */
+  color: #fff;
+  font-weight: 600;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 14px;
+}
+
+.gift-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  min-height: 84px; /* ensure similar visual height to coupon cards */
+}
+
+.gift-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.collect-btn {
+  background: none;
+  border: none;
+  color: #c26a3d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.gift-card-desc {
+  font-size: 12px;
+  color: #555;
+  margin: 8px 0; /* match coupon spacing */
+  line-height: 1.4;
+}
+
+.gift-divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 8px 0;
+}
+
+.read-more {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c26a3d;
+  cursor: pointer;
+}
