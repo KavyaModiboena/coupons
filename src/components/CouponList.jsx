@@ -24,7 +24,6 @@ export default function CouponList() {
 
   return (
     <>
-      <h3 className="section-label">Sitewide coupons:</h3>
       {coupons.map((coupon, index) => (
         <CouponCard key={index} {...coupon} />
       ))}

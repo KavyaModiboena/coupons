@@ -17,7 +17,12 @@ export default function GiftCard({ amountLabel, brandName, description }) {
         </div>
         <p className="gift-card-desc">{description}</p>
         <hr className="gift-divider" />
-        <p className="read-more">Read more</p>
+        <button
+          className="read-more"
+          onClick={() => alert("Read more clicked")}
+        >
+          Read more
+        </button>
       </div>
     </div>
   );

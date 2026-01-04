@@ -1,6 +1,6 @@
 "use client";
 
-import "@/styles/paymentTeaser.css";
+import "@/styles/giftcardsTeaser.css";
 
 export default function PaymentOffersTeaser() {
   const handleClick = () => alert("Unlock offers clicked");
@@ -8,15 +8,11 @@ export default function PaymentOffersTeaser() {
   return (
     <div className="teaser-card payment-teaser">
       <div className="teaser-left">
-        <p className="teaser-title">Payment offers:</p>
         <p className="teaser-text">
           Save more on your bookings<br />
-          <strong>upto 15% Off</strong> on select payment methods
+          <strong>upto 35% Off</strong> on select payment methods
         </p>
       </div>
-      {/* <div className="teaser-right">
-        <img src="/images/payment-qr.png" alt="Payment QR" />
-      </div> */}
       <button className="teaser-btn" onClick={handleClick}>
         Unlock offers »
       </button>

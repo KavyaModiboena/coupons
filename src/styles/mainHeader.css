@@ -1,7 +1,7 @@
 .main-header {
-  position: fixed;        /* <-- keeps it fixed */
-  top: 0;                 /* stick to top */
-  left: 0;                /* full width */
+  position: fixed;        
+  top: 0;                 
+  left: 0;                
   right: 0;  
   height: 56px;
   background-color: #ffffff;
@@ -10,7 +10,6 @@
   align-items: center;
   padding: 0 16px;
   border-bottom: 1px solid #eaeaea;
-  /* position: sticky; */
   z-index: 1000; 
 }
 

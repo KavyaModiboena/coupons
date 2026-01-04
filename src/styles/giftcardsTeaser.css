@@ -15,21 +15,10 @@
   gap: 4px;
 }
 
-.teaser-title {
-  font-size: 14px;
-  font-weight: 600;
-}
-
 .teaser-text {
   font-size: 13px;
   color: #555;
   line-height: 1.4;
-}
-
-.teaser-right {
-  display: flex;
-  gap: 8px;
-  margin-top: 8px;
 }
 
 .card {
@@ -41,14 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.small-card {
-  background: #f77e36;
-}
-
-.large-card {
-  background: #2d5cb2;
 }
 
 .teaser-btn {

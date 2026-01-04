@@ -34,7 +34,7 @@ export default function OfferSection() {
         {!signedIn ? (
           <>
             <p className="offer-subtitle">Sign in to unlock exclusive additional rewards</p>
-            <button className="sign-in-btn" onClick={() => setSignedIn(true)}>Sign in</button>
+            <button className="sign-in-btn" onClick={() => { setSignedIn(true); alert("You're signed in"); }}>Sign in</button>
           </>
         ) : (
           <p className="offer-subtitle">Welcome back! Your rewards are unlocked </p>
@@ -54,9 +54,10 @@ export default function OfferSection() {
         </div>
       </div>
 
-      {/* Vertical scrollable sections (UI only) */}
+      {/* Vertical scrollable sections */}
       <div className="sections">
         <div id="coupons" className="section">
+           <h3 className="tab-heading">Sitewide coupons:</h3>
           <CouponList />
         </div>
 

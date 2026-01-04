@@ -3,34 +3,24 @@
   background-color: #ffffff;
   position: sticky;
   top: 56px; 
-  /* z-index: 100; */
   display: flex;
   flex-direction: column;
   height: calc(100vh - 56px - 60px); 
-  /* box-sizing: border-box;
-  background-clip: padding-box;   */
 }
 
 .offer-header {
-  /* header stays visible; content scrolls inside .sections */
   padding-bottom: 8px;
   background: #fff;
-  /* z-index: 10; */
 }
 
-/* Scrollable area inside the sticky offer section */
+
 .sections {
   flex: 1 ;
   overflow-y: auto;
-  /* scroll-snap-type: y mandatory;
-  -webkit-overflow-scrolling: touch; */
  } 
 
 .section {
-  /* scroll-snap-align: start;
-  min-height: 100%; */
   padding: 16px;
-  /* box-sizing: border-box; */
 }
 .offer-title {
   font-size: 18px;

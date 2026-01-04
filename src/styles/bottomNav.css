@@ -29,6 +29,6 @@
 }
 
 .nav-item.active {
-  color: #c26a3d;        /* active highlight color */
+  color: #c26a3d;       
   font-weight: 600;
 }

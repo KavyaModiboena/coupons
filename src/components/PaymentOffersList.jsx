@@ -9,6 +9,11 @@ export default function PaymentOffersList() {
       brandName: "HDFC BANK",
       description: "Get 10% off on booking above ₹1500",
     },
+    {
+      amountLabel: "30% OFF",
+      brandName: "SBI BANK",
+      description: "Get 30% off on booking above ₹4500",
+    },
   ];
 
   const handleUnlock = (brand) => alert(`Unlocked ${brand} offer!`);
@@ -30,7 +35,12 @@ export default function PaymentOffersList() {
             </div>
             <p className="offer-desc">{offer.description}</p>
             <hr className="offer-divider" />
-            <p className="read-more">Read more</p>
+            <button
+          className="read-more"
+          onClick={() => alert("Read more clicked")}
+        >
+          Read more
+        </button>
           </div>
         </div>
       ))}
